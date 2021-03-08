@@ -1,0 +1,83 @@
+*, html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+#hero-section #nav-container #navbar {
+  height: 80px;
+}
+
+#hero-section #nav-container #navbar .logo {
+  height: 75px;
+}
+
+#hero-section #nav-container #navbar .logo .logo-img {
+  height: 100%;
+}
+
+#hero-section #nav-container #navbar .nav-items .nav-link {
+  padding: .3rem .7rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+#hero-section #nav-container #navbar .nav-items .nav-link.active {
+  background-color: rgba(81, 190, 253, 0.233);
+  color: #27b0ff;
+  font-weight: bold;
+}
+
+#hero-section #nav-container #navbar .nav-items .nav-link:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+#hero-section .banner {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+}
+
+#hero-section .banner .banner-bg img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  size: cover;
+}
+
+#hero-section .banner .banner-cta {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  font-size: 1.3rem;
+}
+
+#hero-section .banner .banner-cta .title {
+  display: block;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+#hero-section #blog-nav .bnav-link {
+  font-weight: bold;
+}
+
+#hero-section #blog-nav .bnav-link:not(:last-child) {
+  margin-right: 1.3rem;
+}
+/*# sourceMappingURL=style.css.map */
