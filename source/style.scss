@@ -3,36 +3,6 @@
 
 
 #hero-section {
-    #nav-container {
-        #navbar {
-            height: 80px;
-
-            .logo {
-                height: 75px;
-
-                .logo-img {
-                    height:100%;
-                }
-            }
-
-            .nav-items {
-                .nav-link {
-                    padding: .3rem .7rem;
-                    border-radius: 1rem;
-                    text-transform: uppercase;
-                    &.active {
-                        background-color: rgba(81, 190, 253, 0.233);
-                        color: rgb(39, 176, 255);
-                        font-weight: bold;
-                    }
-                    
-                    &:not(:last-child) {
-                        margin-right: 1.5rem;
-                    }
-                }
-            }
-        }
-    }
 
     .banner {
         position: relative;
