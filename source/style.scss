@@ -47,6 +47,12 @@
     }
 }
 
-#most-popular {
-    
+#most-popular, #recents {
+    .single-article {
+        margin-bottom: 2rem;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
 }

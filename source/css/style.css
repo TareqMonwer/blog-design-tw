@@ -16,34 +16,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-#hero-section #nav-container #navbar {
-  height: 80px;
-}
-
-#hero-section #nav-container #navbar .logo {
-  height: 75px;
-}
-
-#hero-section #nav-container #navbar .logo .logo-img {
-  height: 100%;
-}
-
-#hero-section #nav-container #navbar .nav-items .nav-link {
-  padding: .3rem .7rem;
-  border-radius: 1rem;
-  text-transform: uppercase;
-}
-
-#hero-section #nav-container #navbar .nav-items .nav-link.active {
-  background-color: rgba(81, 190, 253, 0.233);
-  color: #27b0ff;
-  font-weight: bold;
-}
-
-#hero-section #nav-container #navbar .nav-items .nav-link:not(:last-child) {
-  margin-right: 1.5rem;
-}
-
 #hero-section .banner {
   position: relative;
   height: 80vh;
@@ -79,5 +51,13 @@ body {
 
 #hero-section #blog-nav .bnav-link:not(:last-child) {
   margin-right: 1.3rem;
+}
+
+#most-popular .single-article, #recents .single-article {
+  margin-bottom: 2rem;
+}
+
+#most-popular .single-article:not(:last-child), #recents .single-article:not(:last-child) {
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
