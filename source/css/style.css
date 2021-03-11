@@ -16,6 +16,11 @@ body {
   margin-bottom: 1.5rem;
 }
 
+.custom-img-shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px #ffa6a6);
+  filter: drop-shadow(5px 5px 5px #ffa6a6);
+}
+
 #hero-section .banner {
   position: relative;
   height: 80vh;
