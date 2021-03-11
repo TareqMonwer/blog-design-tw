@@ -60,4 +60,26 @@ body {
 #most-popular .single-article:not(:last-child), #recents .single-article:not(:last-child) {
   margin-right: 1rem;
 }
+
+.newsletter-area .input-container {
+  position: relative;
+}
+
+.newsletter-area .input-container .email-input {
+  border: 5px solid #fff;
+  background: #e5e7eb;
+  border-radius: 2rem;
+  padding: .7rem 1rem;
+}
+
+.newsletter-area .input-container .nl-submit-btn {
+  position: absolute;
+  right: 5px;
+  height: 83%;
+  border-radius: 2rem;
+  padding: 0 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 /*# sourceMappingURL=style.css.map */

@@ -56,3 +56,27 @@
         }
     }
 }
+
+.newsletter-area {
+    .input-container {
+        position: relative;
+
+        .email-input {
+            // position: relative;
+            border: 5px solid #fff;
+            background: rgb(229, 231, 235);
+            border-radius: 2rem;
+            padding: .7rem 1rem;
+        }
+        .nl-submit-btn {
+            position: absolute;
+            right: 5px;
+            height: 83%;
+            border-radius: 2rem;
+            padding: 0 1.5rem;
+            text-align: center;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+    }
+}
