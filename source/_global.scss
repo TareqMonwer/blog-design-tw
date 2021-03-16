@@ -19,3 +19,8 @@ body {
     -webkit-filter: drop-shadow(5px 5px 5px #ffa6a6);
     filter: drop-shadow(5px 5px 5px #ffa6a6);
 }
+
+.pending-comment {
+    pointer-events: none;
+    opacity: .6;
+}

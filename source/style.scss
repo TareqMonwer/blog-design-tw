@@ -67,6 +67,12 @@
             background: rgb(229, 231, 235);
             border-radius: 2rem;
             padding: .7rem 1rem;
+            color: rgb(29, 78, 216);
+            font-weight: bold;
+
+            &:focus {
+                outline: none;
+            }
         }
         .nl-submit-btn {
             position: absolute;
